@@ -34,6 +34,20 @@ In machine learning, support-vector machines are supervised learning models with
 Among all other techniques used, and taking into account the f1 score for each model, the SVM model has performed best.
 
 ### Step 4: Model prediction and result comparison
+###### DistilBERT
+```
+trainer.evaluate()
+{'eval_loss': 0.3324328064918518,
+ 'eval_accuracy': 0.8633333333333333,
+ 'eval_f1': 0.8664495114006515,
+ 'eval_precision': 0.8471337579617835,
+ 'eval_recall': 0.8866666666666667,
+ 'eval_runtime': 8.6241,
+ 'eval_samples_per_second': 34.786,
+ 'eval_steps_per_second': 2.203,
+ 'epoch': 2.0}
+```
+
 
 ### Future Improvements for Sentiment Analysis
 * Multilingual sentiment analysis.
