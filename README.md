@@ -1,10 +1,10 @@
-# Sentiment-Analysis-Model-Comparison
+# Sentiment Analysis Model Comparison
 This repository contains 4 different sentiment analysis models and tests their efficiency based on key metrics to draw a conclusion on what is the most optimal common sentiment analysis model.
 
-#### Step 1: Obtaining the Dataset
+### Step 1: Obtaining the Dataset
 The dataset used for all models in this repository is the IMDB movie review dataset in the '''datasets''' package
 
-#### Step 2: Pre-Processing of data
+### Step 2: Pre-Processing of data
 ##### REMOVING PUNCTUATIONS
 Using regular expression(regex), remove punctuation, hashtags and @-mentions from each tweet.</br>
 
@@ -17,7 +17,7 @@ Stemming is the process of reducing inflected words to their word stem, base, or
 ##### LEMMATIZATION
 Lemmatization in linguistics is the process of grouping together the inflected forms of a word so they can be analyzed as a single item, identified by the word's lemma, or dictionary form.</br>
 
-#### Step 3: Fitting and training the model
+### Step 3: Fitting and training the model
 ##### Implemented Algorithms
 ###### NAIVE BAYES CLASSIFIER
 The Naive Bayes Classifier is a model that assigns class labels to problem instances, represented as vectors of feature values, where the class labels are drawn from some finite set.
@@ -30,10 +30,10 @@ Logistic regression is a statistical model that in its basic form uses a logisti
 ###### SUPPORT VECTOR MACHINE (SVM)
 In machine learning, support-vector machines are supervised learning models with associated learning algorithms that analyze data used for classification and regression analysis.
 
-#### Conclusion
+### Conclusion
 Among all other techniques used, and taking into account the f1 score for each model, the SVM model has performed best.
 
-#### Step 4: Model prediction and result comparison
+### Step 4: Model prediction and result comparison
 
 ### Future Improvements for Sentiment Analysis
 * Multilingual sentiment analysis.
