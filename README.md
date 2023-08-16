@@ -6,7 +6,7 @@ The dataset used for all models in this repository is the IMDB movie review data
 
 ### Step 2: Pre-Processing of data
 ##### REMOVING PUNCTUATIONS
-Using regular expression(regex), remove punctuation, hashtags and @-mentions from each tweet.</br>
+Using regular expression(regex), remove punctuation, hashtags and @-mentions from each movie review.</br>
 
 ##### TOKENIZATION
 In order to use textual data for predictive modeling, the text must be parsed to remove certain words – this process is called tokenization.</br>
