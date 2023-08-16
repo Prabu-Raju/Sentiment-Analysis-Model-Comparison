@@ -45,7 +45,7 @@ trainer.evaluate()
  'eval_runtime': 8.6241,
  'eval_samples_per_second': 34.786,
  'eval_steps_per_second': 2.203,
- 'epoch': 2.0}
+ 'epoch': 2.0} 
 ```
 
 
