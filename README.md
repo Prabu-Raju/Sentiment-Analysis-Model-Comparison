@@ -47,6 +47,18 @@ trainer.evaluate()
  'eval_steps_per_second': 2.203,
  'epoch': 2.0} 
 ```
+###### LOGISTIC REGRESSION
+```
+print(classification_report(y_test, model.predict(X_test)))
+              precision    recall  f1-score   support
+
+       False       0.84      0.84      0.84      2426
+        True       0.85      0.85      0.85      2574
+
+    accuracy                           0.85      5000
+   macro avg       0.85      0.85      0.85      5000
+weighted avg       0.85      0.85      0.85      5000
+```
 
 
 ### Future Improvements for Sentiment Analysis
