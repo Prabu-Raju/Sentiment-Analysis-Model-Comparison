@@ -2,7 +2,7 @@
 This repository contains 4 different sentiment analysis models and tests their efficiency based on key metrics to draw a conclusion on what is the most optimal common sentiment analysis model.
 
 ### Step 1: Obtaining the Dataset
-The dataset used for all models in this repository is the IMDB movie review dataset in the ```datasets``` package
+The dataset used for the models in this repository is a movie review dataset in the ```datasets``` and ```shap``` package.
 
 ### Step 2: Pre-Processing of data
 ##### REMOVING PUNCTUATIONS
