@@ -21,8 +21,6 @@ Lemmatization in linguistics is the process of grouping together the inflected f
 ##### Implemented Algorithms
 ###### NAIVE BAYES CLASSIFIER
 The Naive Bayes Classifier is a model that assigns class labels to problem instances, represented as vectors of feature values, where the class labels are drawn from some finite set.
-###### SENTIMENT INTENSITY ANALYZER
-The Sentiment Intensity Analyzer is a rule-based sentiment analyzer in which the terms are generally labeled as per their semantic orientation as either positive or negative.
 ###### DistilBERT
 DistilBERT is a small, fast, cheap, and light Transformer model based on the BERT architecture. Knowledge distillation is performed during the pre-training phase to reduce the size of a BERT model by 40%. To leverage the inductive biases learned by larger models during pre-training, the authors introduce a triple loss combining language modeling, distillation, and cosine-distance losses.
 ###### LOGISTIC REGRESSION
@@ -59,7 +57,15 @@ print(classification_report(y_test, model.predict(X_test)))
    macro avg       0.85      0.85      0.85      5000
 weighted avg       0.85      0.85      0.85      5000
 ```
-
+###### SUPPORT VECTOR MACHINE (SVM)
+```
+report = classification_report(testData['Label'], prediction_linear, output_dict=True)
+print('positive: ', report['pos'])
+print('negative: ', report['neg'])
+Training time: 13.860089s; Prediction time: 0.754112s
+positive:  {'precision': 0.9191919191919192, 'recall': 0.91, 'f1-score': 0.9145728643216081, 'support': 100}
+negative:  {'precision': 0.9108910891089109, 'recall': 0.92, 'f1-score': 0.9154228855721394, 'support': 100}
+```
 
 ### Future Improvements for Sentiment Analysis
 * Multilingual sentiment analysis.
