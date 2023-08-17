@@ -32,6 +32,11 @@ In machine learning, support-vector machines are supervised learning models with
 Among all other techniques used, and taking into account the f1 score for each model, the SVM model has performed best.
 
 ### Step 4: Model prediction and result comparison
+###### NAIVE BAYES CLASSIFIER
+```
+print(nltk.classify.accuracy(classifier, test_set))
+0.85
+```
 ###### DistilBERT
 ```
 trainer.evaluate()
